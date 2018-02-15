@@ -1,0 +1,86 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+$main-color: #66B5AB;
+
+
+h1 {
+  width: 100%;
+  margin: 0;
+  padding: 0px 30px;
+  background-color: black;
+  color: $main-color;
+  border-radius: 5px;
+}
+
+.wrap {
+  padding: 20px;
+  width: 100%;
+  min-height: 900px;
+  background-color: $main-color;
+  display: block;
+  align-items: top;
+  justify-items: center;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.container-messages {
+  width: 100%;
+  height: auto;
+  background-color: black;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 20px 0;
+}
+
+
+.message {
+
+  border-left: 10px solid $main-color;
+  padding: 10px;
+  margin-bottom: 15px;
+  // border-radius: 5px;
+
+  h3 {
+    font-size: 24px;
+    color: white
+  }
+
+  p {
+    font-size: 16px;
+    color: gray;
+  }
+
+  &:hover{
+    background-color: #252525;
+  }
+}
+
+.form-inline {
+  margin: 15px auto;
+  display: flex;
+
+  .btn {
+    margin-left: 10px;
+    background-color: #383d41;
+    color: white;
+  }
+
+  .form-control {
+    flex: 1 0 0;
+  }
+}
+
+a{
+  text-decoration: none;
+
+  &:hover{
+    text
+  }
+}

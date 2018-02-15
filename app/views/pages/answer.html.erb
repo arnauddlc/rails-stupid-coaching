@@ -1,0 +1,20 @@
+
+<div class="wrap">
+  <div class="container">
+    <h1>Your coach answer</h1>
+    <div class="container-messages">
+      <div class="message">
+        <h3><%= @answer %></h3>
+        <p>posted by: your coach</p>
+      </div>
+
+      <div class="message">
+        <h3><%= params[:question] %></h3>
+        <p>posted by: you</p>
+      </div>
+    </div>
+    <%= link_to 'Ask a new question to your coach', "./ask" %>
+  </div>
+</div>
+
+
